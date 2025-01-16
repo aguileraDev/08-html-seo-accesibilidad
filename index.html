@@ -1,16 +1,61 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.scss">
-    <title>Doo - Get Things Done</title>
-  </head>
-  <body>
-    <h1>
-      Awesome scss
-    </h1>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/style.scss">
+  <title>Doo - Get Things Done</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <div class="nav__wrapper">
+        <li class="nav__item">
+         <a class="nav__link" href="https://getdooapp.com/">
+           <i aria-hidden="true">
+             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="20"
+               viewBox="0 0 60 20" version="1.1">
+               <title>Logo / Wordmark</title>
+               <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                 <g id="Desktop-HD" transform="translate(-80.000000, -34.000000)">
+                   <g id="Group" transform="translate(80.000000, 34.000000)">
+                     <ellipse id="Oval" fill="#A3F2CB" cx="28.4337349" cy="10" rx="10.0401606" ry="10"></ellipse>
+                     <ellipse id="Oval" fill="#ACBEFB" cx="49.9598394" cy="10" rx="10.0401606" ry="10"></ellipse>
+                     <path
+                       d="M6.8943654,20 C12.4467191,20 16.9477912,15.5228475 16.9477912,10 C16.9477912,4.4771525 12.4467191,0 6.8943654,0 L0,0 L0,20 L6.8943654,20 Z"
+                       id="Oval" fill="#64E5A6"></path>
+                   </g>
+                 </g>
+               </g>
+             </svg>
+           </i>
+         </a>
+       </li>
+      </div>
+      <menu class="nav__wrapper">
+        <li class="nav__item">
+          <a class="nav__link nav__link-active nav__link-hover" href="">overview</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link-hover" href="">features</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link-hover" href="">support</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link-hover" href="">contact</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link-hover" href="">download</a>
+        </li>
+      </menu>
+    </nav>
+  </header>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>
